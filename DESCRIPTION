@@ -1,7 +1,7 @@
 Package: colorblindr
 Type: Package
 Title: Simulate colorblindness in R figures
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c( 
     person("Claire D.", "McWhite", , "claire.mcwhite@utexas.edu", c("aut")),
     person("Claus O.", "Wilke", , "wilke@austin.utexas.edu", c("cre", "aut")))

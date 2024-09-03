@@ -22,6 +22,6 @@ cvd_grid <- function(plot = last_plot(), severity = 1)
   p4 <- edit_colors(plot, des)
 
   cowplot::plot_grid(p1, p2, p3, p4, scale = 0.9, hjust = 0, vjust = 1,
-                     labels = c("Deutanomaly", "Protanomaly", "Tritanomaly", "Desaturated"),
+                     labels = c("Deuteranomaly", "Protanomaly", "Tritanomaly", "Desaturated"),
                      label_x = 0.01, label_y = 0.99, label_size = 12, label_fontface = "bold")
 }
